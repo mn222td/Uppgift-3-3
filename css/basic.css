@@ -18,6 +18,7 @@
             TEXTCOLOR SUB P:            #797066
             TEXTCOLOR H2:               #51473d
             TEXTCOLOR P:                #797066 
+            TEXTCOLOR SUB A:            #51473d
 SLUT */
 /* ---------------------------------------------------------------------*/
 body 
@@ -124,7 +125,6 @@ body
     float:left;
     border-right:1px dashed #c0c0c0;
     border-left: 1px solid #cecab9;
-    border-color:;
 }
 /* ---------------------------------------------------------------------*/
 #subcontent
@@ -136,6 +136,23 @@ body
     min-height: 348px;
     padding-top:25px;
     border-right: 1px solid #cecab9;
+}
+/* ---------------------------------------------------------------------*/
+#subcontent ul li a
+/* ---------------------------------------------------------------------*/
+{
+    color: #51473d;
+    font-size: 12px;
+}
+/* ---------------------------------------------------------------------*/
+#subcontent ul
+/* ---------------------------------------------------------------------*/
+{   
+    list-style:none;
+    font-family: verdana;
+    font-weight: lighter;
+    color: #51473d;
+    margin-left:-30px;
 }
 /* ---------------------------------------------------------------------*/
 #bottomcontent
