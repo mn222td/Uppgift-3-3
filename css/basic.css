@@ -1,5 +1,24 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
-
+/* ---------------------------------------------------------------------*/
+/* FÄRGER
+            BAKGRUND BODY:              #fcfaf4
+            BAKGRUND TOPBAR:            #51473d
+            TEXTCOLOR TOPBAR:           #eae7d2
+            BAKGRUND MENU:              #797066
+                                        #9c9084
+                                        #eae7d2
+            TEXTCOLOR MENU:             #eae7d2
+                                        #888076
+            BAKGRUNDMAINCONT:           #eae7d2
+            BAKGRUNDSUBCONT:            #eae7d2
+            BAKGRUNDBOTTCONT:           #eae7d2
+            TEXTCOLOR MAIN H1:          #797066
+            TEXTCOLOR MAIN P:           #797066
+            TEXTCOLOR SUB H1:           #797066
+            TEXTCOLOR SUB P:            #797066
+            TEXTCOLOR H2:               #51473d
+            TEXTCOLOR P:                #797066 
+SLUT */
 /* ---------------------------------------------------------------------*/
 body 
 /* ---------------------------------------------------------------------*/
@@ -27,7 +46,8 @@ body
     height:215px;
     color: #eae7d2;
     font-size:10px;
-    font-family:helvetica;
+    font-style: italic;
+    font-family: Verdana;
     text-align:right;
 }
 /* ---------------------------------------------------------------------*/
@@ -92,41 +112,43 @@ body
 #content
 /* ---------------------------------------------------------------------*/
 {
-    background-color:black;
     width:600px;
-    height: 400px;
 }
 /* ---------------------------------------------------------------------*/
 #maincontent
 /* ---------------------------------------------------------------------*/
 {
-    background-color:#eae7d2;
-    width: 369px;
-    float:left;
-    border-right:1px dashed;
-    border-color:#c0c0c0;
+    background-color: #eae7d2;
+    width: 368px;
     min-height: 330px;
+    float:left;
+    border-right:1px dashed #c0c0c0;
+    border-left: 1px solid #cecab9;
+    border-color:;
 }
 /* ---------------------------------------------------------------------*/
 #subcontent
 /* ---------------------------------------------------------------------*/
 {
-    background-color:#eae7d2;
-    width: 230px;
-    height:auto;
     float:left;
-    min-height: 330px;
+    background-color:#eae7d2;
+    width: 229px;
+    min-height: 348px;
     padding-top:25px;
+    border-right: 1px solid #cecab9;
 }
 /* ---------------------------------------------------------------------*/
 #bottomcontent
 /* ---------------------------------------------------------------------*/
 {
     float:left;
-    width:600px;
+    width:598px;
     font-size:10px;
     font-style:italic;
     padding-bottom:10px;
+    border-left: 1px solid #cecab9;
+    border-right: 1px solid #cecab9;
+    border-bottom: 1px solid #cecab9;
 }
 /* ---------------------------------------------------------------------*/
 #bottomcontent
@@ -150,21 +172,19 @@ body
     float:left;
     margin-left:10px;
     margin-right:5px;
-    margin-bottom:px;
 }
 /* ---------------------------------------------------------------------*/
 #maincontent p
 /* ---------------------------------------------------------------------*/
 {
     color:#797066;
-    margin-left:10px;
-    margin-right:25px;
-    font-family: helvetica, sans-serif;
-    font-weight:100;
+    font-family: verdana, sans-serif;
+    font-weight: lighter;
     font-size:10pt;
-    line-height:20px;
     text-align:left;
-
+    line-height:20px;
+    margin-left:10px;
+    margin-right:10px;
 }
 /* ---------------------------------------------------------------------*/
 #subcontent h1
@@ -172,8 +192,9 @@ body
 {   
     margin-left:10px;
     font-size:16px;
-    color:#797066;
+    font-family: Times New Roman;
     font-weight:100;
+    color:#797066;
 }
 /* ---------------------------------------------------------------------*/
 #subcontent p
@@ -190,9 +211,9 @@ h2
 /* ---------------------------------------------------------------------*/
 {
     font-size:14px;
+    font-weight:100;
     color:#51473d;
     padding-top:25px;
-    font-weight:100;
     margin-left: 10px;
 }
 /* ---------------------------------------------------------------------*/
@@ -200,5 +221,4 @@ p
 /* ---------------------------------------------------------------------*/
 {
     color:#797066;
-    font-size:px;
 }
