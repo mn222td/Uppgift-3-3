@@ -92,12 +92,13 @@ body
     font-family: verdana, sans-serif;
     font-size: 12px;
     font-weight: lighter;
+    letter-spacing: 0.5px;
     text-decoration: none;
     text-align: center;
     text-transform: capitalize;
     margin-left:1px;
     margin-bottom:-3px;
-    padding: 7px 23px 7px 23px;       /* top - right - bottom - left */
+    padding: 7px 21px 7px 21px;       /* top - right - bottom - left */
 }
 /* ---------------------------------------------------------------------*/
 #menu ul li a:hover
