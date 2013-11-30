@@ -48,9 +48,12 @@ body
     width:600px;
     height:220px;
     color: #eae7d2;
-    font-size:10px;
+    line-height:20px;
+    letter-spacing:1.5px;
+    font-size:8px;
     font-style: italic;
-    font-family: Verdana, sans-serif;
+    font-family: verdana, sans-serif;
+    font-weight:100;
     text-align:right;
     margin-top:10px;
 }
@@ -127,8 +130,9 @@ body
 /* ---------------------------------------------------------------------*/
 {
     background-color: #eae7d2;
-    width: 350px;
-    min-height: 330px;
+    width: 380px;
+    padding-bottom:25px;
+    min-height: 343px;
     float:left;
     border-right:1px dashed #c0c0c0;
     border-left: 1px solid #cecab9;
@@ -139,8 +143,8 @@ body
 {
     float:left;
     background-color:#eae7d2;
-    width: 247px;
-    min-height: 368px;
+    width: 217px;
+    min-height: 373px;
     padding-top:25px;
     border-right: 1px solid #cecab9;
 }
@@ -180,15 +184,18 @@ body
 {
     background-color:#eae7d2;
     text-indent: 10px;
+    font-family:verdana;
+    color: #797066;
+    padding-bottom:10px;
 }
 
 #maincontent h1
 /* ---------------------------------------------------------------------*/
 {
     color:#797066;
-    font-family: Times New Roman, serif;
+    font-family: "Times new roman", sans-serif;
     margin-left:10px;
-    font-weight:lighter;
+    font-weight: 100;
 }
 /* ---------------------------------------------------------------------*/
 #maincontent img
@@ -216,10 +223,11 @@ body
 /* ---------------------------------------------------------------------*/
 {   
     margin-left:10px;
-    font-size:14px;
-    font-family: Times New Roman;
-    font-weight:100;
-    color:#797066;
+    padding-bottom:12px;
+    font-size:16px;
+    font-family: "Times New Roman", sans-serif;
+    font-weight:lighter;
+    color:#51473d;
 }
 /* ---------------------------------------------------------------------*/
 #subcontent p
@@ -228,8 +236,12 @@ body
     margin-left:10px;
     margin-right:10px;
     color:#797066;
-    font-size:10px;
+    font-size:8px;
+    font-weight:100;
+    font-family:verdana;
     line-height: 20px;
+    letter-spacing:0.5px;
+    text-align: left;
 }
 /* ---------------------------------------------------------------------*/
 h2
@@ -237,9 +249,11 @@ h2
 {
     font-size:14px;
     font-weight:100;
+    font-family:"Times New Roman", sans-serif;
     color:#51473d;
-    padding-top:25px;
+    padding-top:20px;
     margin-left: 10px;
+    margin-bottom: -15px;
 }
 /* ---------------------------------------------------------------------*/
 p
