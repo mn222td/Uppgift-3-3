@@ -43,7 +43,7 @@ body
     background-color: #51473d;
     background-repeat: no-repeat;
     background-position:center bottom;
-    width:600px;
+    width:598px;
     height:220px;
     color: #eae7d2;
     line-height:20px;
@@ -54,6 +54,9 @@ body
     font-weight:100;
     text-align:right;
     margin-top:10px;
+    border-top: 1px solid #cecab9;
+    border-left: 1px solid #cecab9;
+    border-right: 1px solid #cecab9;
 }
 /* ---------------------------------------------------------------------*/
 #menu
@@ -123,9 +126,7 @@ body
 /* ---------------------------------------------------------------------*/
 {
     background: #eae7d2;
-    border-left: 1px solid #cecab9;
-    border-right: 1px solid #cecab9;
-    border-bottom: 1px solid #cecab9;
+    border: 1px solid #cecab9;
     padding-top:15px;
     
 }
