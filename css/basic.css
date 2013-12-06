@@ -99,7 +99,7 @@ body
     text-transform: capitalize;
     margin-left:1px;
     margin-bottom:-3px;
-    padding: 7px 20px 9px 20px;       /* top - right - bottom - left */
+    padding: 7px 20px 10px 20px;       /* top - right - bottom - left */
 }
 /* ---------------------------------------------------------------------*/
 #menu ul li a:hover
@@ -139,6 +139,7 @@ body
     width: 380px;
     height:auto;
     border-right:1px dashed #c0c0c0;
+    
 }
 /* ---------------------------------------------------------------------*/
 #subcontent
@@ -185,7 +186,7 @@ body
     font-style:italic;
     font-family:verdana;
     text-indent: 10px;
-    padding-bottom:10px;
+    padding-bottom:15px;
 }
 /* ---------------------------------------------------------------------*/
 #maincontent h1
